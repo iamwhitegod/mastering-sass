@@ -1,0 +1,37 @@
+$base-font-family-sans: sans-serif; // 1
+$base-font-family-serif: serif; // 2
+$base-font-family-code: monospace; // 2
+
+$base-font-size: 1rem;
+$base-line-height: 1.5;
+
+$base-font-size: 1rem;
+$base-line-height: 1.5;
+
+$base-font-family-code: $base-font-family-code;
+
+*,
+*::after,
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body > div {
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+p {
+  font-family: $base-font-family-sans;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin-bottom: $base-line-height + rem;
+}
